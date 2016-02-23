@@ -11,4 +11,4 @@
   each file, and dumping tons of content to the terminal, try using `head` and `tail`.
   `head` and `tail` dump only the beginning or end of a file, respectively.
 
-3 As you might have noticed, the 
+3 As you might have noticed, the
