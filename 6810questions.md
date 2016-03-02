@@ -1,5 +1,5 @@
-clmystery
-=========
+clmystery (Command Line Mystery)
+================================
 
 1. Download the clmystery zip and unzip it to the current directory. To begin the challenge, use the `cat` command on the "instructions" file. 'cat' stands for "concatenate", although many use it to dump the contents of a file in unix.
 
@@ -10,7 +10,7 @@ clmystery
 3. As you might have noticed, the `crimescene` file contains snippets of _Alice in Wonderland_. Unfortunately, the cops got it all jumbled together somehow. Given the clue in the instructions, we need to somehow search for string CLUE in the file, without a text editor and avoid the rest of the _Alice in Wonderland_ junk. The command of use here is grep. Try
     
         grep "CLUE" crimescene
-    and you should get a listing of *matching lines*. _Did you find clues? There should be three._
+    and you should get a listing of matching lines. _Did you find clues? There should be three._
 
 4. One clue should have a name, a witness! The police put the people they interviewed in the `people`. Try using `grep` to find the witness. _what command did you use?_
     Also, you can filter based on part of the clue, based on the gender of the witness. Use this to decide who to look up next. _You should have two possible witnesses._
