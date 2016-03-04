@@ -3,7 +3,7 @@ clmystery (Command Line Mystery)
 
 1. Download the clmystery zip and unzip it to the current directory. To begin the challenge, use the `cat` command on the "instructions" file. 'cat' stands for "concatenate", although many use it to dump the contents of a file in unix.
 
-    As the instructions say, _usage of text editors are forebidden_. We'll also forbid the use of the commands `less` or `more`.
+    As the instructions say, _usage of text editors are forbidden_. We'll also forbid the use of the commands `less` or `more`.
 
 2. Now that you have background, it's time to use terminal skills to solve the mystery! Enter the mystery directory and look around. The data is somewhat unstructured so to get a feel for what each file looks like, instead of `cat`'ing  each file, and dumping tons of content to the terminal, try using `head` and `tail`.  `head` and `tail` dump only the beginning or end of a file, respectively.
 
