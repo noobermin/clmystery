@@ -4,6 +4,10 @@ Checking Your Answer on Mac/Linux:
 
   echo "John Doe" | $(command -v md5 || command -v md5sum) | grep -qif /dev/stdin encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.
 
+  For 6810 students: if you are using tsch on one of the room's computers, use the following command instead:
+
+  echo "John Doe" | md5sum | grep -qif /dev/stdin encoded && echo CORRECT\! GREAT WORK, GUMSHOE. || echo SORRY, TRY AGAIN.
+
 Checking Your Answer on Windows:
 
   Copy and paste the following command, replace John Doe with the suspect's name you want to check, and execute it from inside the main clmystery directory:
